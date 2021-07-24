@@ -1,0 +1,26 @@
+.App {
+  background-color: rgb(116, 19, 116);
+  height: 70rem;
+  padding-top: 6rem;
+  width: 100%;
+  place-items: center;
+  text-align: center;
+}
+
+.card {
+  width: 75%;
+  height: auto;
+  background-color: white;
+  max-height: 900px;
+  color: black;
+  display: flex;
+  margin: auto;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width: 75%;
+}

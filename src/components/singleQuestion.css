@@ -1,0 +1,33 @@
+.single-question {
+  width: 75%;
+  height: auto;
+  max-height: 17rem;
+  padding: 0 1rem;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.3rem 2rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.btn {
+  color: rgb(68, 66, 66);
+  background-color: rgb(53, 228, 244);
+  border: 1px solid rgb(126, 126, 211);
+  border-radius: 5px;
+  outline: none;
+  padding: 0.5rem 0.9rem;
+}
+
+.btn:hover {
+  color: rgb(12, 124, 134);
+  background-color: white;
+}
+
+.question {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
